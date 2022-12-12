@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Box, Grid, TextField,Typography, styled, MenuItem, Button } from "@mui/material";
-import { useForm, Form } from "../../components/useForm";
-import { branches } from "../../data/index";
+import { useForm, Form } from "../components/useForm";
+import { branches } from "../data/index";
 import {useRouter} from "next/router";
 import { useSession } from "next-auth/react";
 import axios from 'axios'

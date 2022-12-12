@@ -40,7 +40,7 @@ export default function Home(){
                 loading ? <h1>Loading.....</h1> :  
                 <Grid item sm={12}>
                     <Header user={user} />
-                    <Button onClick={(e) => router.push("/student/addstudent") } variant="standard" type="button" size="small" sx={{...classes.addBtn}}>
+                    <Button onClick={(e) => router.push("/addstudent") } variant="standard" type="button" size="small" sx={{...classes.addBtn}}>
                          <AddIcon />
                     </Button>
                 </Grid>

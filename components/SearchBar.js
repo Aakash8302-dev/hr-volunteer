@@ -63,9 +63,7 @@ function SearchBar({ placeholder, data }) {
           {filteredData.slice(0, 15).map((value, key) => {
             return (
               <Link key={key} href={`/student/${value.regNo}`}>
-                <a>
                   <p>{value.name} </p>
-                </a>
               </Link>
             );
           })}
